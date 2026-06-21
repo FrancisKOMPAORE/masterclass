@@ -40,7 +40,7 @@ export default function Trainer() {
         }}
       >
         {/* Avatar block */}
-        <div className="reveal">
+        <div className="reveal md:w-1/2">
           <div
             style={{
               width: "100%",
@@ -65,7 +65,7 @@ export default function Trainer() {
         </div>
 
         {/* Text block */}
-        <div>
+        <div className="md:w-1/2">
           <div className="reveal">
             <span className="section-label">Votre formateur</span>
             <span className="orange-line" />
