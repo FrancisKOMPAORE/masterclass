@@ -30,12 +30,11 @@ export default function Trainer() {
         borderTop: "1px solid rgba(200,214,229,0.06)",
       }}
     >
-      <div
+      <div className="flex flex-col md:flex-row"
         style={{
           maxWidth: "1000px",
           margin: "0 auto",
-          display: "grid",
-          gridTemplateColumns: "1fr 1fr",
+          display: "flex",
           gap: "80px",
           alignItems: "center",
         }}
@@ -118,7 +117,7 @@ export default function Trainer() {
 
           {/* Credibility tags */}
           <div className="reveal" style={{ display: "flex", gap: "10px", flexWrap: "wrap" }}>
-            {["Génie Civil", "IA appliquée", "BTP Afrique", "Dakar, Sénégal"].map((tag) => (
+            {["Génie Civil", "IA appliquée", "BTP Afrique"].map((tag) => (
               <span
                 key={tag}
                 style={{
