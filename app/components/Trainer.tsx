@@ -47,8 +47,6 @@ export default function Trainer() {
               maxWidth: "360px",
               aspectRatio: "1",
               borderRadius: "12px",
-              background: "linear-gradient(135deg, #1E2D5A, #0f1a3a)",
-              border: "1px solid rgba(255,107,43,0.2)",
               display: "flex",
               flexDirection: "column",
               alignItems: "center",
@@ -60,7 +58,7 @@ export default function Trainer() {
           >
 
             {/* Replace with actual photo */}
-              <img src="pp.png" alt=""/>
+              <img style={{borderRadius:"12px"}} src="pp.png" alt=""/>
           </div>
         </div>
 

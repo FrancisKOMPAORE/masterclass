@@ -2,7 +2,7 @@
 import { useEffect, useRef } from "react";
 
 // ← Mettez votre lien de paiement ici (Stripe, Wave, PayDunya, Paylink, etc.)
-const PAYMENT_LINK = "https://xliiwqsf.mychariow.shop/prd_mxvn7khy";
+const PAYMENT_LINK = "https://xliiwqsf.mychariow.shop/prd_7vk1s6w2";
 
 export default function Inscription() {
   const sectionRef = useRef<HTMLDivElement>(null);
@@ -109,8 +109,8 @@ export default function Inscription() {
             fontWeight: "300",
           }}
         >
-          Une session live, en ligne, avec échanges en temps réel.
-          Accès à la rediffusion inclus. Toutes les ressources téléchargeables.
+          Deux sessions live, en ligne, avec échanges en temps réel. <br/>
+          Toutes les ressources téléchargeables. <br/>
           Un investissement qui se rentabilise dès la première semaine.
         </p>
 
@@ -142,7 +142,7 @@ export default function Inscription() {
 
           <div style={{ marginBottom: "8px" }}>
             <span style={{ color: "#8ba4c0", fontSize: "0.85rem", textDecoration: "line-through" }}>
-              Valeur réelle : 25 000 FCFA
+              Valeur réelle : 10 000 FCFA
             </span>
           </div>
 
@@ -156,7 +156,7 @@ export default function Inscription() {
                 lineHeight: "1",
               }}
             >
-              20 000
+              2 500
             </span>
             <span style={{ color: "#C8D6E5", fontSize: "1.1rem", fontFamily: "Space Grotesk, sans-serif" }}>
               FCFA
@@ -177,7 +177,7 @@ export default function Inscription() {
             }}
           >
             {[
-              "2h de masterclass live avec Q&A",
+              "2 jours de masterclass live avec Q&A",
               "Accompagnement personnalisé",
               "Pack des prompts IA & BTP téléchargeables",
               "Accès au groupe WhatsApp participants",
@@ -229,7 +229,7 @@ export default function Inscription() {
               borderRadius: "6px",
             }}
           >
-            Je réserve ma place — 20 000 FCFA
+            Je réserve ma place — 2 500 FCFA
           </a>
 
           <p style={{ color: "#8ba4c0", fontSize: "0.78rem", marginTop: "16px" }}>

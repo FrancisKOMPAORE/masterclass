@@ -43,7 +43,7 @@ export default function Navbar() {
             fontFamily: "Space Grotesk, sans-serif",
           }}
         >
-          BTP
+          SD+
         </div>
         <span
           style={{
@@ -54,7 +54,7 @@ export default function Navbar() {
             letterSpacing: "0.02em",
           }}
         >
-          MASTERCLASS
+          SUNU DIGITAL +
         </span>
       </div>
 

@@ -4,42 +4,46 @@ import { useEffect, useRef, useState } from "react";
 const modules = [
   {
     time: "Module 1",
-    title: "Positionnement professionnel",
+    title: "Comprendre l'Intelligence Artificielle",
     points: [
-      "Branding personnel BTP",
-      "Réputation professionnel",
-      "Visibilité numérique",
-      "Stratégie de carrière",
+      "Les fondamentaux de l'IA",
+      "Les opportunités pour les professionnels",
+      "Les limites et bonnes pratiques",
     ],
   },
   {
     time: "Module 2",
-    title: "Communication digitale",
+    title: "Maîtriser les meilleurs outils IA",
     points: [
-      "Création de contenus pro",
-      "Valorisation des réalisations",
-      "Communication BTP",
-      "Visibilité professionnel",
+        "ChatGPT",
+        "Claude",
+        "Gemini",
+        "Perplexity",
+        "Canva",
+        "Notion",
+        "n8n",
+        "tlDV",
+        "Claude Code"
     ],
   },
   {
     time: "Module 3",
-    title: "LinkedIn professionnel",
+    title: "L'art du Prompt Engineering",
     points: [
-      "Optimisation du profil",
-      "Titre et bio impactants",
-      "Développement du réseau",
-      "Recherche d'opportunuités",
+      "Struturer des prompts performants",
+      "Obtenir des résultats professionnels",
+      "Automatiser les tâches répétitives",
     ],
   },
   {
     time: "Module 4",
-    title: "Monétisation & Opportunuités IA",
+    title: "Productivité et automatisation",
     points: [
-      "Création de services IA & BTP",
-      "Formations et ebooks",
-      "Consulting assistés par IA",
-      "Revenus complémentaires",
+      "Rapport",
+      "Comptes rendus",
+      "Courriers",
+      "Présentations",
+        "Analyses"
     ],
   },
 ];
@@ -86,7 +90,7 @@ export default function Program() {
               lineHeight: "1.2",
             }}
           >
-            3 heures qui changent votre{" "}
+            2 jours qui changeront votre{" "}
             <span style={{ color: "#FF6B2B" }}>façon de travailler</span>
           </h2>
         </div>
@@ -188,11 +192,16 @@ export default function Program() {
               BONUS INCLUS
             </div>
             <div style={{ fontFamily: "Space Grotesk, sans-serif", fontWeight: "600", fontSize: "0.95rem", marginBottom: "6px" }}>
-              Pack des prompts IA spéciaux BTP
+              Le paiement vous donne droit à:
             </div>
             <p style={{ color: "#C8D6E5", fontSize: "0.85rem", lineHeight: "1.6" }}>
-              Copiez-collez directement dans ChatGPT ou Claude : rapports de chantier, analyses de béton, 
-              planning, correspondances — prêts à l&apos;emploi dès la fin de la masterclass.
+              L'accès à IA Africa Academy <br/>
+              Des ressources exclusives <br/>
+              Des tutoriels <br/>
+              Des actualités sur les nouvelles IA <br/>
+              Des échanges entre professionnels <br/>
+              Des retours d'expérience <br/>
+              Des mises à jours régulières
             </p>
           </div>
         </div>

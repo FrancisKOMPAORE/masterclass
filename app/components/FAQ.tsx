@@ -12,7 +12,7 @@ const faqs = [
   },
   {
     q: "Les outils sont-ils disponibles en Afrique de l'Ouest ?",
-    a: "Oui. Nous sélectionnons spécifiquement des outils accessibles depuis Dakar, Abidjan, Bamako, Ouagadougou et toute la région. Certains nécessitent un VPN basique, nous vous expliquons comment faire.",
+    a: "Oui. Nous sélectionnons spécifiquement des outils accessibles depuis Dakar, Abidjan, Bamako, Ouagadougou et toute la région.",
   },
   {
     q: "Comment se passe le paiement ?",
